@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Castaway</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="nav-body">
+                <div class="logo">
+                   <img src="img/logo.svg" alt="logo">
+                </div>
+                    <nav data-nav class="header-nav">
+                        <ul>
+                            <li><a href="#home" class="link">Home</a></li>
+                            <li><a href="#latest" class="link">Episodes</a></li>
+                            <li><a href="#about" class="link">About</a></li>
+                            <li><a href="#contact" class="link">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button class="burger" data-burger aria-label="Open menu" aria-expanded="false">
+                        <span class="burger__burger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="home" class="home">
+                <div class="container">
+                    <div class="home-body">
+
+                        <div class="img-home">
+                            <img src="img/img-home.svg" class="img-home_img-main" alt="home-img">
+                        </div>
+
+                        <div class="home-block">
+                          <div class="home-block_home-title">Take your podcast to the <span class="next">next</span> <span class="level">level</span></div>
+                            <div class="home-soc">
+                                <div class="home-soc_soc-title">Listen on</div>
+                                <div class="soc-icon">
+                                    <a href="#"><img src="img/icon-one.svg" alt="soc-icon"></a>
+                                    <a href="#"><img src="img/icon-two.svg" alt="soc-icon"></a>
+                                    <a href="#"><img src="img/icon-three.svg" alt="soc-icon"></a>
+                                    <a href="#"><img src="img/icon-four.svg" alt="soc-icon"></a>
+                                    <a href="#"><img src="img/icon-five.svg" alt="soc-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="latest" class="latest">
+                <div class="container">
+                    <div class="latest-body">
+                        
+                        <div class="latest-text">
+                            <div class="text-left">
+                                <div class="text-left_latest-title">Latest episodes</div>
+                            </div>
+                           <div class="button-right">
+                            <button class="button-right_button-click">View all episodes</button>
+                           </div>
+                        </div>
+
+                        <div class="block-satya">
+
+                            <div class="satya">
+                                <div class="satya-img">
+                                    <img src="img/satya-img-one.svg" alt="satya-img">
+                                </div>
+                                <div class="main-satya">
+                                    <div class="main-satya_mini-text">Gear</div>
+                                    <div class="main-satya_mini-title">Episode 3</div>
+                                    <div class="main-satya_satya-title">Should you get outboard audio gear?</div>
+                                    <div class="main-satya_satya-text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</div>
+                                    <button class="main-satya_button-satya">View Episode Details</button>
+                                </div>
+                            </div>
+
+                            <div class="satya-one">
+                                <div class="satya-img">
+                                    <img src="img/satya-img-two.svg" alt="satya-img">
+                                </div>
+                                <div class="main-satya">
+                                    <div class="main-satya_mini-text-two">Tips & Tricks</div>
+                                    <div class="main-satya_mini-title">Episode 2</div>
+                                    <div class="main-satya_satya-title">Mic tricks to take you to the next level</div>
+                                    <div class="main-satya_satya-text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</div>
+                                    <button class="main-satya_button-satya">View Episode Details</button>
+                                </div>
+                            </div>
+
+                            <div class="satya-two">
+                                <div class="satya-img">
+                                    <img src="img/satya-img-three.svg" alt="satya-img">
+                                </div>
+                                <div class="main-satya">
+                                    <div class="main-satya_mini-text">Gear</div>
+                                    <div class="main-satya_mini-title">Episode 1</div>
+                                    <div class="main-satya_satya-title">The best microphone under $200</div>
+                                    <div class="main-satya_satya-text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</div>
+                                    <button class="main-satya_button-satya">View Episode Details</button>
+                                </div>
+                            </div>
+
+                        </div>  
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="about-body">
+
+                        <div class="block-about">
+                            <div class="about-main">
+                                <button class="about-main_circle"></button>
+                                <div class="about-main_about-mini-text">Meet your host</div>
+                                <div class="about-main_about-name">Jacob Paulaner</div>
+                                <div class="about-main_about-text">Jacob has a background in audio engineering, and has been podcasting since the early days.</div>
+                                <div class="about-main_about-text-one">He’s here to help you level up your game by sharing everything he’s learned along the way.</div>
+                            </div>
+        
+                            <div class="about-img">
+                                <img src="img/about-img.svg" alt="about-img">
+                            </div>
+                        </div>
+
+                        <div class="block-form">
+                            <div class="form-block-one">
+                                <div class="form-block-one_form-block-mini">Email Newsletter</div>
+                                <div class="form-block-one_from-block-title">Subscribe for updates</div>
+                            </div>
+
+                            <form action="#" class="form-fill">
+                                <input type="text" id="text" class="contact-text" placeholder="Name" required>
+                                <input type="email" id="email" class="contact-email" placeholder="Email" required>
+                                <button class="form-click">Submit</button>
+                            </form>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <div class="container">
+                    <div class="reviews-body">
+
+                        <div class="reviews-card">
+                            <div class="reviews-card_grade"></div>
+                            <div class="reviews-card_reviews-title">I can’t recommend this podcast enough</div>
+                            <div class="reviews-card_reviews-name">Betty Lacey</div>
+                        </div>
+
+                        <div class="reviews-card">
+                            <div class="reviews-card_grade"></div>
+                            <div class="reviews-card_reviews-title">Jacob is the best in the business</div>
+                            <div class="reviews-card_reviews-name">Adam Driver</div>
+                        </div>
+
+                        <div class="reviews-card">
+                            <div class="reviews-card_grade"></div>
+                            <div class="reviews-card_reviews-title">A wealth of audio knowledge</div>
+                            <div class="reviews-card_reviews-name">Marcus Brown</div>
+                        </div>
+
+                        <div class="reviews-card">
+                            <div class="reviews-card_grade"></div>
+                            <div class="reviews-card_reviews-title">Every episode is a gem!</div>
+                            <div class="reviews-card_reviews-name">Jessica Knowl</div>
+                        </div>
+
+                        <div class="reviews-card">
+                            <div class="reviews-card_grade"></div>
+                            <div class="reviews-card_reviews-title">Whoa whoa, let me take some notes!</div>
+                            <div class="reviews-card_reviews-name">Scott Adams</div>
+                        </div>
+
+                        <div class="reviews-card">
+                            <div class="reviews-card_grade"></div>
+                            <div class="reviews-card_reviews-title">I’ve upped my game considerably since I started listening</div>
+                            <div class="reviews-card_reviews-name">Steven Blast</div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer id="contact" class="footer">
+            <div class="container">
+                <div class="footer-body">
+
+                    <div class="footer-one">
+                        <img src="img/logo.svg" alt="logo">
+                        <div class="footer-block-soc">
+                            <a href="#"><img src="img/inst.svg" alt="soc"></a>
+                            <a href="#"><img src="img/twitter.svg" alt="soc"></a>
+                            <a href="#"><img src="img/facebook.svg" alt="soc"></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-header">
+                        <nav data-nav class="footer-nav">
+                            <ul class="ul-one">
+                                <li><a href="#home" class="footer-link">Home</a></li>
+                                <li><a href="#latest" class="footer-link">Episodes</a></li>
+                                <li><a href="#about" class="footer-link">About</a></li>
+                                <li><a href="#contact" class="footer-link">Contact</a></li>
+                            </ul>
+                            <ul class="ul-one">
+                                <li><a href="#" class="footer-link">Style Guide</a></li>
+                                <li><a href="#" class="footer-link">Instructions</a></li>
+                                <li><a href="#" class="footer-link">Changelog</a></li>
+                                <li><a href="#" class="footer-link">Credit</a></li>
+                                <li><a href="#" class="footer-link">Powered by Webflow</a></li>
+                                <li><a href="#" class="footer-link">Licenses</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="footer-soc-icon">
+                        <a href="#"><img src="img/icon-one.svg" alt="soc-icon"></a>
+                        <a href="#"><img src="img/icon-two.svg" alt="soc-icon"></a>
+                        <a href="#"><img src="img/icon-three.svg" alt="soc-icon"></a>
+                        <a href="#"><img src="img/icon-four.svg" alt="soc-icon"></a>
+                        <a href="#"><img src="img/icon-five.svg" alt="soc-icon"></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+ <script src="./js/script.js"></script>
+</body>
+</html>
