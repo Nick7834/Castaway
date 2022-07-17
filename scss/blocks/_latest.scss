@@ -1,0 +1,116 @@
+.latest {
+    padding-top: 100px;
+}
+
+.latest-text {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text-left {
+        &_latest-title {
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 79px;
+
+            letter-spacing: 2.88px;
+
+            color: #FFFFFF;
+        }
+    }
+
+    .button-right {
+        &_button-click {
+            cursor: pointer;
+            padding: 12px 17px;
+            border: 0;
+            background: #118DA8;
+            border-radius: 6px;
+            font-weight: 400;
+            font-size: 17px;
+
+            color: #FFFFFF;
+            transition: .5s;
+                &:hover {
+                    background: #ffffff;
+                    color: black;
+                }
+        }
+    }
+}
+
+// Satya 
+
+.block-satya {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.satya, .satya-one, .satya-two {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border-radius: 32px;
+}
+
+.main-satya {
+    padding-left: 53px;
+    color: #FFFFFF;
+    font-weight: 400;
+    &_mini-text {
+        max-width: 73px;
+        padding: 5px 16px;
+        font-size: 18px;
+        line-height: 27px;
+        background: #191919;
+        border-radius: 6px;
+    }
+    &_mini-text-two {
+        max-width: 136px;
+        padding: 5px 16px;
+        font-size: 17px;
+        line-height: 27px;
+        background: #191919;
+        border-radius: 6px;
+    }
+    &_mini-title {
+        padding-top: 48px;
+        padding-bottom: 18px;
+        font-size: 17px;
+        line-height: 27px;
+        color: #118DA8;
+    }
+    &_satya-title {
+        max-width: 701px;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: 2.56px;
+    }
+    &_satya-text{
+        padding-top: 28px;
+        padding-bottom: 18px;
+        max-width: 757px;
+        font-size: 22px;
+        line-height: 33px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    &_button-satya {
+        cursor: pointer;
+        padding: 12px 17px;
+        border: 0;
+        background: #118DA8;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 17px;
+
+        color: #FFFFFF;
+        transition: .5s;
+            &:hover {
+                background: #ffffff;
+                color: black;
+            }
+    }
+
+}

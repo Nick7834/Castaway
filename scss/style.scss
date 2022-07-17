@@ -1,0 +1,31 @@
+@import "./global/reset";
+@import "./blocks/header";
+@import "./blocks/home";
+@import "./blocks/latest";
+@import "./blocks/about";
+@import "./blocks/reviews";
+@import "./blocks/footer";
+@import "./blocks/media";
+
+::selection {
+    background: #90b9f4; 
+    color: #fff; 
+ }
+
+ :root {
+  scroll-behavior: smooth;
+ }
+  
+  .wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .container {
+    max-width: 1330px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,45 @@
+.footer-body {
+    padding-bottom: 116px;
+    display: flex;
+}
+
+.footer-one {
+    .footer-block-soc {
+        padding-top: 23px;
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.footer-header {
+    margin-left: 300px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 125px;
+    .ul-one {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-link {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+        transition: .5s;
+        &:hover {
+            color: #118DA8;
+        }
+    }
+}
+
+.footer-soc-icon {
+    display: flex;
+    padding-left: 16px;
+    gap: 17px;
+    height: max-content;
+}
